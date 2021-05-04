@@ -1,0 +1,61 @@
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="app_name">Ismo Mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_header_title">ISMO TETOUAN</string>
+
+
+    <!-- Accueil !-->
+    <string name="edit_login">Login</string>
+    <string name="edit_password">Mot de passe</string>
+    <string name="btn_connect">Connecter</string>
+    <string name="forget_password"><a>Mot de passe oublié ?</a></string>
+    <string name="langue">Langue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_stagiaire">NavigationStagiaire</string>
+
+
+    <!-- Menu Accueil!-->
+    <string name="title_activity_accueil">Ismo Mobile</string>
+    <string name="title_activity_accueil__formateur">Accueil Formateur</string>
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_parametres">Paramétres</string>
+    <string name="menu_filiere">Filiére</string>
+    <string name="menu_document">Document</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_bourse">Bourse</string>
+    <string name="menu_condition">Condition d\'accès</string>
+    <string name="menu_position">Trouvez l\'établissement</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- Erreur connexion Accueil!-->
+    <string name="login_empty_erreur">Le champ login ne peut pas étre vide</string>
+    <string name="login_max_erreur">Entrez un champ login qui contient au moins trois caractères et vingt-cinq caractères au maximum</string>
+
+    <!-- Menu Stagiaire!-->
+    <string name="title_activity_accueil__stagiaire">Accueil Stagiaire</string>
+    <string name="accueil_stagiaire">Accueil</string>
+    <string name="emplois_temps_stagiaire">Emplois de temps</string>
+    <string name="absence_retards_stagiaire">Absences et retards</string>
+    <string name="discussion_stagiaire">Discussion</string>
+    <string name="mot_passe_stagiaire">Modifier mot de passe</string>
+    <string name="logout_stagiaire">Déconnexion</string>
+
+    <!-- Menu Formateur !-->
+    <string name="accueil_formateur">Accueil</string>
+    <string name="emplois_temps_formateur">Emplois de temps</string>
+    <string name="abcense_retards">Absences et retards</string>
+    <string name="message_formateur">Message</string>
+    <string name="mot_passe_formateur">Modifier mot de passe</string>
+    <string name="logout_formateur">Logout</string>
+
+</resources>

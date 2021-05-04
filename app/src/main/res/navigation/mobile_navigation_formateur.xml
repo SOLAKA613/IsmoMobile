@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_formateur"
+    app:startDestination="@+id/accueil_Formateur"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/accueil_Formateur"
+        android:name="fs.tetouan.ismo.com.formateur.Accueil_Formateur"
+        android:label="@string/accueil_formateur"
+        tools:layout="@layout/for_fragment_accueil" />
+    <fragment
+        android:id="@+id/emploisTemps_Formateur"
+        android:name="fs.tetouan.ismo.com.formateur.Emplois_temps"
+        android:label="@string/emplois_temps_formateur"
+        tools:layout="@layout/for_fragment_emplois_temps" />
+    <fragment
+        android:id="@+id/absence_retards"
+        android:name="fs.tetouan.ismo.com.formateur.Absence_Retards"
+        android:label="@string/abcense_retards"
+        tools:layout="@layout/for_fragment_emplois_temps" />
+    <fragment
+        android:id="@+id/message"
+        android:name="fs.tetouan.ismo.com.formateur.Message"
+        android:label="@string/message_formateur"
+        tools:layout="@layout/for_fragment_message" />
+    <fragment
+        android:id="@+id/modifier_motpasse_formateur"
+        android:name="fs.tetouan.ismo.com.formateur.ModifierMot_Passe"
+        android:label="@string/mot_passe_formateur"
+        tools:layout="@layout/for_fragment_modifier_mot_passe" />
+    <fragment
+        android:id="@+id/logout_formateur"
+        android:name="fs.tetouan.ismo.com.formateur.Logout"
+        android:label="@string/logout_formateur"
+        tools:layout="@layout/for_fragment_logout" />
+</navigation>

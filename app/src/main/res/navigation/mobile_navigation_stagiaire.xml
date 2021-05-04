@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_stagiaire"
+    app:startDestination="@+id/accueil_Stagiaire"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/accueil_Stagiaire"
+        android:name="fs.tetouan.ismo.com.stagiaire.Accueil_Stagiaire"
+        android:label="@string/accueil_stagiaire"
+        tools:layout="@layout/sta_fragment_accueil" />
+    <fragment
+        android:id="@+id/emploisTemps_Stagiaire"
+        android:name="fs.tetouan.ismo.com.stagiaire.EmploisTemps"
+        android:label="@string/emplois_temps_stagiaire"
+        tools:layout="@layout/sta_fragment_emplois_temps" />
+    <fragment
+        android:id="@+id/absence_justification"
+        android:name="fs.tetouan.ismo.com.stagiaire.Absence_Justification"
+        android:label="@string/absence_retards_stagiaire"
+        tools:layout="@layout/sta_fragment_absence_justification" />
+    <fragment
+        android:id="@+id/discussion"
+        android:name="fs.tetouan.ismo.com.stagiaire.Discussion"
+        android:label="@string/discussion_stagiaire"
+        tools:layout="@layout/sta_fragment_discussion" />
+    <fragment
+        android:id="@+id/mot_passe_stagiaire"
+        android:name="fs.tetouan.ismo.com.stagiaire.ModifierMot_passe"
+        android:label="@string/mot_passe_stagiaire"
+        tools:layout="@layout/sta_fragment_mot_passe" />
+    <fragment
+        android:id="@+id/logout_stagiaire"
+        android:name="fs.tetouan.ismo.com.stagiaire.ModifierMot_passe"
+        android:label="@string/logout_stagiaire"
+        tools:layout="@layout/sta_fragment_mot_passe" />
+</navigation>

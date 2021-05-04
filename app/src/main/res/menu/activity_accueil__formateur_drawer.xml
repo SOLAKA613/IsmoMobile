@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accueil_Formateur"
+            android:icon="@drawable/home"
+            android:title="@string/accueil_formateur" />
+    </group>
+    <item android:title="GROUPE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/emploisTemps_Formateur"
+                    android:icon="@drawable/ic_calendar"
+                    android:title="@string/emplois_temps_formateur" />
+                <item
+                    android:id="@+id/absence_retards"
+                    android:icon="@drawable/icon_retard"
+                    android:title="@string/abcense_retards" />
+                <item
+                    android:id="@+id/message"
+                    android:icon="@drawable/icon_message"
+                    android:title="@string/message_formateur" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="COMPTE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/modifier_motpasse_formateur"
+                    android:icon="@drawable/lock"
+                    android:title="@string/mot_passe_formateur" />
+                <item
+                    android:id="@+id/logout_formateur"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/logout_formateur" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_top_menu">28dp</dimen>
+
+    <!-- Header !-->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">220dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height_image">120dp</dimen>
+    <dimen name="nav_header_with_image">120dp</dimen>
+    <dimen name="nav_header_text_view">5dp</dimen>
+
+    <!-- Accueil !-->
+    <dimen name="margin_Top_titre_connect">51dp</dimen>
+    <dimen name="start_End_edit_text_login">16dp</dimen>
+    <dimen name="margin_Top_edit_text_login">32dp</dimen>
+    <dimen name="margin_Top_edit_password">32dp</dimen>
+    <dimen name="start_End_title_login">8dp</dimen>
+    <dimen name="start_End_button_login">65dp</dimen>
+    <dimen name="margin_Top_forget_password">24dp</dimen>
+    <dimen name="margin_Bottom_forget_password">2dp</dimen>
+
+</resources>

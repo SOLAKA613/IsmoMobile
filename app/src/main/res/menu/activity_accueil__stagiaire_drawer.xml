@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/accueil_Stagiaire"
+            android:icon="@drawable/home"
+            android:title="@string/accueil_stagiaire" />
+    </group>
+    <item android:title="GROUPE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/emploisTemps_Stagiaire"
+                    android:icon="@drawable/ic_calendar"
+                    android:title="@string/emplois_temps_stagiaire" />
+                <item
+                    android:id="@+id/absence_justification"
+                    android:icon="@drawable/icon_justification"
+                    android:title="@string/absence_retards_stagiaire" />
+                <item
+                    android:id="@+id/discussion"
+                    android:icon="@drawable/icon_discussion"
+                    android:title="@string/discussion_stagiaire" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="COMPTE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mot_passe_stagiaire"
+                    android:icon="@drawable/lock"
+                    android:title="@string/mot_passe_stagiaire" />
+                <item
+                    android:id="@+id/logout_stagiaire"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/logout_stagiaire" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

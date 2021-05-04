@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_accueil"
+    app:startDestination="@+id/nav_accueil">
+
+    <fragment
+        android:id="@+id/nav_accueil"
+        android:name="fs.tetouan.ismo.com.accueil.Accueil_Fragment"
+        android:label="@string/menu_accueil"
+        tools:layout="@layout/acc_fragment_accueil"/>
+
+    <fragment
+        android:id="@+id/nav_parametres"
+        android:name="fs.tetouan.ismo.com.accueil.Parametre"
+        android:label="@string/menu_parametres"
+        tools:layout="@layout/acc_fragment_parametre"/>
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="fs.tetouan.ismo.com.accueil.Contacts"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/acc_fragment_contacts" />
+
+    <fragment
+        android:id="@+id/nav_position"
+        android:name="fs.tetouan.ismo.com.accueil.Trouvez_Etablissement"
+        android:label="@string/menu_position"
+        tools:layout="@layout/acc_fragment_trouvez_etablissement" />
+
+    <fragment
+        android:id="@+id/nav_filiere"
+        android:name="fs.tetouan.ismo.com.accueil.Filiere"
+        android:label="@string/menu_filiere"
+        tools:layout="@layout/acc_fragment_filiere" />
+
+    <fragment
+        android:id="@+id/nav_bourse"
+        android:name="fs.tetouan.ismo.com.accueil.Bourse"
+        android:label="@string/menu_bourse"
+        tools:layout="@layout/acc_fragment_bourse" />
+
+    <fragment
+        android:id="@+id/nav_document"
+        android:name="fs.tetouan.ismo.com.accueil.Documents"
+        android:label="@string/menu_document"
+        tools:layout="@layout/acc_fragment_documents" />
+
+    <fragment
+        android:id="@+id/nav_condition"
+        android:name="fs.tetouan.ismo.com.accueil.Condition_Acces"
+        android:label="@string/menu_condition"
+        tools:layout="@layout/acc_fragment_condition__acces" />
+
+</navigation>
